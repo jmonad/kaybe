@@ -5,7 +5,7 @@ For Android implementation, go to [`android`][20] branch.
 Import dependency
 --------------------------------
 
-Into your build.gradle:s
+Into your build.gradle:
 
 ```groovy
 
