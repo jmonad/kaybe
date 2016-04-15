@@ -2,7 +2,7 @@ package com.jmonad.kaybe
 
 class Just<A>(value : A) : IMaybe<A> {
   val value = value
-  override fun <B> bind(fn: (a : A) -> B): IMaybe<B> = Maybe().maybe(fn(value))
+  override fun <B> bind(fn: (a : A) -> B): IMaybe<B> = maybe(fn(value))
   override fun fromJust(): A = value
   override fun fromMaybe(def: A) = value
   override fun isJust() = true
