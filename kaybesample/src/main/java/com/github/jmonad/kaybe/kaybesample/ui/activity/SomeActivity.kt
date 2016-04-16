@@ -18,9 +18,9 @@ class SomeActivity : AppCompatActivity() {
 
   fun configToolbar() {
     setSupportActionBar(toolbar)
-    maybe(supportActionBar).bind {
-      actionBar.setHomeButtonEnabled(true)
-      actionBar.setDisplayHomeAsUpEnabled(true)
+    maybe(supportActionBar!!).bind {
+      it.setHomeButtonEnabled(true)
+      it.setDisplayHomeAsUpEnabled(true)
     }
   }
 
