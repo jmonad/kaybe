@@ -27,7 +27,7 @@ android {
 }
 
 dependencies {
-  compile 'com.github.jmonad:kaybe:0.1'
+  compile 'com.github.jmonad:kaybe:+'
   compile 'com.android.support:appcompat-v7:24.0.0-alpha1'
   compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
